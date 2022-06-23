@@ -76,7 +76,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Algo-Wordle {'\u25A0'}</h1>
+      <h1>Javasc-ordle</h1>
       <pre>{redact}</pre>
       <input type="text" placeholder="Guess" onChange={e => setGuess(e.target.value)} value = {guess}></input>
       <button onClick={guessWord}>Guess Word</button>
